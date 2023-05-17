@@ -1,1 +1,1 @@
-print("gay")
+print("Kingdom come")
