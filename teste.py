@@ -1,1 +1,1 @@
-print("Kingdom come")
+print("")
