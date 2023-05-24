@@ -16,12 +16,17 @@ while True:
         
     while "_" in display:
         guess = input("Guess a letter: ").lower()
+        
+        if guess in display:
+          print(f"You've already guessed this letter: {guess}")
+        
         for i, item in enumerate(random_word):
             if item == guess:
                 display[i] = item
-                
+        
         if guess not in random_word:
             lives -= 1
+            print(f"You guessed {guess}, that's not in the word. You lose a life.")
             print(stages[lives])
             if lives == 0:
                 print("You lost!")
