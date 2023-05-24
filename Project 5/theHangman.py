@@ -1,9 +1,11 @@
 import random
 from art import *
 from word_list import *
+import os
 
 while True:
-
+    os.system('cls')
+    
     print(logo)
     print("Welcome to my Hangman game!!")
 
