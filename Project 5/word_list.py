@@ -1,0 +1,1 @@
+word_list = ["exodus", "project", "apple", "orange", "metro", "love", "oblivion"]
