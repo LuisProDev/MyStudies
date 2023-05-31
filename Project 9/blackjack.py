@@ -84,6 +84,7 @@ def blackjack():
                 os.system('cls')
                 blackjack()
             else:
+                os.system('cls')
                 exit() 
         
 blackjack()

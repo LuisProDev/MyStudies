@@ -1,3 +1,4 @@
+import os
 
 def add(n1, n2):
     return n1 + n2
@@ -46,6 +47,7 @@ def calculator():
             elif again == 'exit':
                 exit()
             else:
+                os.system('cls')
                 calculator()
             
         calculate(num1, num2) 
