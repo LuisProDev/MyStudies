@@ -25,6 +25,7 @@ def higher_lower():
             if choice_2 == choice_1:
                 choice_2 = random.choice(data)
             
+            os.system('cls')
             score += 1
             print(logo)
             time.sleep(1)
