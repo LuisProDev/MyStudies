@@ -12,14 +12,17 @@ def higher_lower():
     
     print(logo)
     time.sleep(1)
-    print(f"Compare A: {choice_1['name']}, a/an {choice_1['description']}, from {choice_1['country']}")
+    print(f"Compare A: {choice_1['name']}, a/an {choice_1['description']},"
+          f" from {choice_1['country']}")
     print(vs)
     time.sleep(1)
-    print(f"Against B: {choice_2['name']}, a/an {choice_2['description']}, from {choice_2['country']}")
+    print(f"Against B: {choice_2['name']}, a/an {choice_2['description']},"
+          f" from {choice_2['country']}")
     winner = input("Who has more followers? 'A' or 'B': ").lower()
     
     if (choice_1['follower_count'] > choice_2['follower_count']
-            and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
+            and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count']
+                                   and winner == 'b'):
         while True:
             choice_1 = choice_2
             choice_2 = random.choice(data)
@@ -32,14 +35,17 @@ def higher_lower():
             print(logo)
             time.sleep(1)
             print(f"You're right. Current Score: {score}")
-            print(f"Compare A: {choice_1['name']}, a/an {choice_1['description']}, from {choice_1['country']}")
+            print(f"Compare A: {choice_1['name']}, a/an {choice_1['description']},"
+                  f" from {choice_1['country']}")
             print(vs)
             time.sleep(1)
-            print(f"Against B: {choice_2['name']}, a/an {choice_2['description']}, from {choice_2['country']}")
+            print(f"Against B: {choice_2['name']}, a/an {choice_2['description']},"
+                  f" from {choice_2['country']}")
             winner = input("Who has more followers? 'A' or 'B': ").lower()
                     
             if (choice_1['follower_count'] > choice_2['follower_count']
-                    and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
+                    and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count']
+                                           and winner == 'b'):
                 os.system('cls')
                 continue
             else:
