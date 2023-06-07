@@ -4,6 +4,7 @@ import os
 from database import *
 from art import *
 
+
 def higher_lower():
     choice_1 = random.choice(data)
     choice_2 = random.choice(data)
@@ -17,7 +18,8 @@ def higher_lower():
     print(f"Against B: {choice_2['name']}, a/an {choice_2['description']}, from {choice_2['country']}")
     winner = input("Who has more followers? 'A' or 'B': ").lower()
     
-    if (choice_1['follower_count'] > choice_2['follower_count'] and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
+    if (choice_1['follower_count'] > choice_2['follower_count']
+            and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
         while True:
             choice_1 = choice_2
             choice_2 = random.choice(data)
@@ -36,7 +38,8 @@ def higher_lower():
             print(f"Against B: {choice_2['name']}, a/an {choice_2['description']}, from {choice_2['country']}")
             winner = input("Who has more followers? 'A' or 'B': ").lower()
                     
-            if (choice_1['follower_count'] > choice_2['follower_count'] and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
+            if (choice_1['follower_count'] > choice_2['follower_count']
+                    and winner == 'a') or (choice_2['follower_count'] > choice_1['follower_count'] and winner == 'b'):
                 os.system('cls')
                 continue
             else:
@@ -48,5 +51,5 @@ def higher_lower():
         print(f"Sorry, that's wrong. Final Score: {score}")
         exit()
 
-    
+
 higher_lower()
