@@ -37,6 +37,9 @@ while True:
         print(f"Money: ${money}")
         continue
 
+    if check_ingredients(choice, MENU, resources):
+        continue
+
     print("Please insert coins.")
     quarters = int(input("How many quarters? "))
     money += quarters * 0.25
@@ -47,37 +50,11 @@ while True:
     pennies = int(input("How many pennies? "))
     money += pennies * 0.01
 
-    if choice == 'latte':
-        if MENU['latte']['cost'] > money:
-            print("Sorry that's not enough money. Money refunded.")
-            continue
-        else:
-            if check_ingredients('latte', MENU, resources):
-                continue
-            change = round(money - latte)
-            print(f"Here is ${change} in change.")
-            print("And here is your latte. Enjoy")
-            continue
-    elif choice == 'cappuccino':
-        if MENU['cappuccino']['cost'] > money:
-            print("Sorry that's not enough money. Money refunded.")
-            continue
-        else:
-            if check_ingredients('cappuccino', MENU, resources):
-                continue
-            change = round(money - cappuccino)
-            print(f"Here is ${change} in change.")
-            print("And here is your cappuccino. Enjoy")
-            continue
-    elif choice == 'espresso':
-        if MENU['espresso']['cost'] > money:
-            print("Sorry that's not enough money. Money refunded.")
-            continue
-        else:
-            if check_ingredients('espresso', MENU, resources):
-                continue
-            change = round(money - espresso)
-            print(f"Here is ${change} in change.")
-            print("And here is your espresso. Enjoy")
-            continue
-
+    if MENU[choice]['cost'] > money:
+        print("Sorry that's not enough money. Money refunded.")
+        continue
+    else:
+        change = round(money - latte)
+        print(f"Here is ${change} in change.")
+        print("And here is your latte. Enjoy")
+        continue
