@@ -4,6 +4,7 @@ money = 0
 espresso = 1.5
 latte = 2.5
 cappuccino = 3.0
+resources_backup = resources.copy()
 
 
 def check_ingredients(drink, menu, resource):
@@ -14,6 +15,7 @@ def check_ingredients(drink, menu, resource):
             for ingredient in ingredients:
                 if ingredients[ingredient] > resource[ingredient]:
                     print(f"Sorry, there's no {ingredient} left")
+                    resources.update(resources_backup)
                     return True
                 else:
                     resource[ingredient] -= ingredients[ingredient]
@@ -23,10 +25,8 @@ def check_ingredients(drink, menu, resource):
 while True:
     choice = input("What would you like? (espresso/latte/cappuccino)"
                    " or 'report' to list the resources left: ").lower()
-
-    if choice not in MENU:
-        print("Choose a valid drink")
-        continue
+    if choice == 'off':
+        exit()
 
     if choice == "report":
         for items in resources:
@@ -35,6 +35,10 @@ while True:
             else:
                 print(f"{items}: {resources[items]}ml")
         print(f"Money: ${money}")
+        continue
+
+    if choice not in MENU:
+        print("Choose a valid drink")
         continue
 
     if check_ingredients(choice, MENU, resources):
@@ -52,9 +56,11 @@ while True:
 
     if MENU[choice]['cost'] > money:
         print("Sorry that's not enough money. Money refunded.")
+        resources.update(resources_backup)
         continue
     else:
         change = round(money - latte)
+        money = 0
         print(f"Here is ${change} in change.")
-        print("And here is your latte. Enjoy")
+        print(f"And here is your {choice}. Enjoy")
         continue
