@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 15 - Intemediate/turte.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 16 - Intermediate/turtleRace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,8 @@
       <workItem from="1686674622280" duration="5834000" />
       <workItem from="1686761466575" duration="12857000" />
       <workItem from="1686849963195" duration="10193000" />
+      <workItem from="1686934132320" duration="7566000" />
+      <workItem from="1687099524579" duration="5131000" />
     </task>
     <servers />
   </component>
@@ -114,18 +116,15 @@
           <line>16</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Project 15 - Intemediate/turte.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python$turtleRace.coverage" NAME="turtleRace Coverage Results" MODIFIED="1687108181171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 16 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$quizProject.coverage" NAME="quizProject Coverage Results" MODIFIED="1686778245676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 14 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$theHirstPainting.coverage" NAME="theHirstPainting Coverage Results" MODIFIED="1686946528688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
     <SUITE FILE_PATH="coverage/python$coffeeMachine.coverage" NAME="coffeeMachine Coverage Results" MODIFIED="1686244829283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 12 - Intermediate" />
-    <SUITE FILE_PATH="coverage/python$turte.coverage" NAME="turte Coverage Results" MODIFIED="1686861649561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
+    <SUITE FILE_PATH="coverage/python$turte.coverage" NAME="turte Coverage Results" MODIFIED="1686935366608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
     <SUITE FILE_PATH="coverage/python$quiz_brain.coverage" NAME="quiz_brain Coverage Results" MODIFIED="1686776685833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 14 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$coffeMachineOOP.coverage" NAME="coffeMachineOOP Coverage Results" MODIFIED="1686680044433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 13 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1686227118541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 12 - Intermediate" />
