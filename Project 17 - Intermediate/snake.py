@@ -1,11 +1,14 @@
-import turtle as t
+from turtle import Turtle
+import random
 UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
 
-class Snake:
+
+class Snake(Turtle):
     def __init__(self):
+        super().__init__()
         self.full_snake = []
         self.x = 0
         self.create_snake()
@@ -13,7 +16,7 @@ class Snake:
 
     def create_snake(self):
         for i in range(1, 4):
-            turtles = t.Turtle('square')
+            turtles = Turtle('square')
             turtles.color('white')
             turtles.penup()
             turtles.goto(self.x, 0)
@@ -43,3 +46,6 @@ class Snake:
         if self.head.heading() != LEFT:
             self.head.setheading(0)
 
+    def wall_collision(self):
+        if self.head.xcor() > 280 or self.head.xcor() < -280 or self.head.ycor() > 280 or self.head.ycor() < -280:
+            return True
