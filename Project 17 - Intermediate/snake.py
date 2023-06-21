@@ -1,5 +1,4 @@
 from turtle import Turtle
-import random
 UP = 90
 DOWN = 270
 LEFT = 180
@@ -11,7 +10,6 @@ class Snake(Turtle):
     def __init__(self):
         super().__init__()
         self.full_snake = []
-        self.x = 0
         self.create_snake()
         self.head = self.full_snake[0]
 
@@ -41,11 +39,11 @@ class Snake(Turtle):
         if self.head.heading() != UP:
             self.head.setheading(270)
 
-    def left(self):
+    def lefts(self):
         if self.head.heading() != RIGHT:
             self.head.setheading(180)
 
-    def right(self):
+    def rights(self):
         if self.head.heading() != LEFT:
             self.head.setheading(0)
 

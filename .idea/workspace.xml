@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/teste.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teste.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,22 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/luis.pereira/Desktop/PythonE/MyStudies",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Luis Gustavo/Desktop/Programas/VSCODE/python/venv&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="snakeTheGame" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="teste" />
@@ -68,12 +67,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\luis.pereira\AppData\Local\Microsoft\WindowsApps\python3.11.exe" />
+      <option name="SDK_HOME" value="C:\Users\Luis Gustavo\AppData\Local\Microsoft\WindowsApps\python3.11.exe" />
       <option name="SDK_NAME" value="Python 3.11" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project 17 - Intermediate" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -103,6 +103,7 @@
       <workItem from="1687099524579" duration="6076000" />
       <workItem from="1687193349944" duration="6815000" />
       <workItem from="1687278265712" duration="8297000" />
+      <workItem from="1687366548593" duration="8973000" />
     </task>
     <servers />
   </component>
@@ -150,13 +151,15 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$snake.coverage" NAME="snake Coverage Results" MODIFIED="1687284357779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$turtleRace.coverage" NAME="turtleRace Coverage Results" MODIFIED="1687108612297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 16 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$theHirstPainting.coverage" NAME="theHirstPainting Coverage Results" MODIFIED="1686946528688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
+    <SUITE FILE_PATH="coverage/python$snakeTheGame.coverage" NAME="snakeTheGame Coverage Results" MODIFIED="1687369398435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$coffeeMachine.coverage" NAME="coffeeMachine Coverage Results" MODIFIED="1686244829283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 12 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$pong.coverage" NAME="pong Coverage Results" MODIFIED="1687379729858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 18 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$pads.coverage" NAME="pads Coverage Results" MODIFIED="1687372255965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 18 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$snake.coverage" NAME="snake Coverage Results" MODIFIED="1687284357779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$quizProject.coverage" NAME="quizProject Coverage Results" MODIFIED="1686778245676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 14 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$score.coverage" NAME="score Coverage Results" MODIFIED="1687291938903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
-    <SUITE FILE_PATH="coverage/python$theHirstPainting.coverage" NAME="theHirstPainting Coverage Results" MODIFIED="1686946528688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
-    <SUITE FILE_PATH="coverage/python$snakeTheGame.coverage" NAME="snakeTheGame Coverage Results" MODIFIED="1687293500673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
-    <SUITE FILE_PATH="coverage/python$coffeeMachine.coverage" NAME="coffeeMachine Coverage Results" MODIFIED="1686244829283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 12 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$turte.coverage" NAME="turte Coverage Results" MODIFIED="1686935366608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
     <SUITE FILE_PATH="coverage/python$quiz_brain.coverage" NAME="quiz_brain Coverage Results" MODIFIED="1686776685833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 14 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$coffeMachineOOP.coverage" NAME="coffeMachineOOP Coverage Results" MODIFIED="1686680044433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 13 - Intermediate" />
