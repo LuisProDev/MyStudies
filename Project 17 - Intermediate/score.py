@@ -25,3 +25,5 @@ class Score(Turtle):
         self.write(arg=f'Score: {self.points}',
                    move=False, align='center',
                    font=('Courier', 12, "normal"))
+
+

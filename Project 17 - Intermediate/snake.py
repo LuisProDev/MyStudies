@@ -4,6 +4,7 @@ UP = 90
 DOWN = 270
 LEFT = 180
 RIGHT = 0
+STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 
 
 class Snake(Turtle):
@@ -15,13 +16,15 @@ class Snake(Turtle):
         self.head = self.full_snake[0]
 
     def create_snake(self):
-        for i in range(1, 4):
-            turtles = Turtle('square')
-            turtles.color('white')
-            turtles.penup()
-            turtles.goto(self.x, 0)
-            self.x -= 20
-            self.full_snake.append(turtles)
+        for positions in STARTING_POSITIONS:
+            self.add_squares(positions)
+
+    def add_squares(self, positions):
+        turtles = Turtle('square')
+        turtles.color('white')
+        turtles.penup()
+        turtles.goto(positions)
+        self.full_snake.append(turtles)
 
     def move(self):
         for last_snake in range(len(self.full_snake) - 1, 0, -1):
@@ -47,5 +50,8 @@ class Snake(Turtle):
             self.head.setheading(0)
 
     def wall_collision(self):
-        if self.head.xcor() > 280 or self.head.xcor() < -280 or self.head.ycor() > 280 or self.head.ycor() < -280:
+        if self.head.xcor() > 290 or self.head.xcor() < -290 or self.head.ycor() > 290 or self.head.ycor() < -290:
             return True
+
+    def increase_snake(self):
+        self.add_squares(self.full_snake[-1].position())
