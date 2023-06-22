@@ -1,8 +1,4 @@
 from turtle import *
-UP = 90
-DOWN = 270
-LEFT = 180
-RIGHT = 0
 
 
 class Pads(Turtle):
@@ -15,8 +11,7 @@ class Pads(Turtle):
         self.penup()
         self.goto(x, y)
         self.color('white')
-        self.shapesize(stretch_wid=1, stretch_len=5)
-        self.setheading(90)
+        self.shapesize(stretch_wid=5, stretch_len=1)
 
     def up_key(self):
         new_y = self.ycor() + 20
