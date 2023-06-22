@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/teste.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/teste.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/ball.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +145,11 @@
           <url>file://$PROJECT_DIR$/Project 14 - Intermediate/quiz_brain.py</url>
           <line>16</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project 18 - Intermediate/pong.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

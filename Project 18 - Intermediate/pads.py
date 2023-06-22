@@ -25,3 +25,5 @@ class Pads(Turtle):
     def down_key(self):
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
+
+
