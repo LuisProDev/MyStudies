@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 18 - Intermediate/score.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 18 - Intermediate/ball.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 18 - Intermediate/ball.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 18 - Intermediate/pong.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 19 - Intermediate/turtleCrossing.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
