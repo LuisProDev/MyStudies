@@ -17,7 +17,6 @@ class Player(Turtle):
         self.goto(0, new_y)
 
     def level_up(self):
-        if self.ycor() == FINISH_LINE_Y:
-            self.hideturtle()
-            self.goto(STARTING_POSITION)
-            self.showturtle()
+        self.hideturtle()
+        self.goto(STARTING_POSITION)
+        self.showturtle()
