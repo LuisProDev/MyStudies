@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Project 17 - Intermediate/score.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 20 - Intermediate/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 20 - Intermediate/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +144,11 @@
           <line>16</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Project 20 - Intermediate/main.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -160,7 +162,7 @@
     <SUITE FILE_PATH="coverage/python$pads.coverage" NAME="pads Coverage Results" MODIFIED="1687372255965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 18 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$snake.coverage" NAME="snake Coverage Results" MODIFIED="1687284357779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 17 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$ball.coverage" NAME="ball Coverage Results" MODIFIED="1687458037441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 18 - Intermediate" />
-    <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1687811686849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 19 - Intermediate" />
+    <SUITE FILE_PATH="coverage/python$main.coverage" NAME="main Coverage Results" MODIFIED="1687976278381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 20 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$quizProject.coverage" NAME="quizProject Coverage Results" MODIFIED="1686778245676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 14 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$score.coverage" NAME="score Coverage Results" MODIFIED="1687462662230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 18 - Intermediate" />
     <SUITE FILE_PATH="coverage/python$turte.coverage" NAME="turte Coverage Results" MODIFIED="1686935366608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project 15 - Intemediate" />
