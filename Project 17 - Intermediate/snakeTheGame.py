@@ -20,8 +20,8 @@ score = sc.Score()
 my_screen.listen()
 my_screen.onkey(snake.up, key="Up")
 my_screen.onkey(snake.down, key="Down")
-my_screen.onkey(snake.left, key="Left")
-my_screen.onkey(snake.right, key="Right")
+my_screen.onkey(snake.lefts, key="Left")
+my_screen.onkey(snake.rights, key="Right")
 
 game_is_on = True
 # Game loop
@@ -33,20 +33,20 @@ while game_is_on:
 
     # Collision with walls
     if snake.wall_collision():
-        game_is_on = False
-        score.game_over()
+        score.reset_score()
+        snake.reset_snake()
 
     # Collision with the food
     if snake.head.distance(food) < 15:
         food.refresh()
-        score.track_points()
+        score.increase()
         snake.increase_snake()
 
     # Collision with body
     for squares in snake.full_snake[1:]:
         if snake.head.distance(squares) < 10:
-            game_is_on = False
-            score.game_over()
+            score.reset_score()
+            snake.reset_snake()
 
 my_screen.exitonclick()
 

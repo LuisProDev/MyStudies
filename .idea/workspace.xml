@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ee1d69b-2f00-41bb-b326-e2084b5a7ff5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Project 17 - Intermediate/score.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 19 - Intermediate/car_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 19 - Intermediate/car_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 19 - Intermediate/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 19 - Intermediate/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 19 - Intermediate/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 19 - Intermediate/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project 19 - Intermediate/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 19 - Intermediate/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snake.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project 17 - Intermediate/snakeTheGame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

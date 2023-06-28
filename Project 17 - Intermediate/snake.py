@@ -53,3 +53,10 @@ class Snake(Turtle):
 
     def increase_snake(self):
         self.add_squares(self.full_snake[-1].position())
+
+    def reset_snake(self):
+        for snake in self.full_snake:
+            snake.goto(1000, 1000)
+        self.full_snake.clear()
+        self.create_snake()
+        self.head = self.full_snake[0]
