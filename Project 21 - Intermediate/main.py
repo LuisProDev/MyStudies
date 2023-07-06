@@ -16,13 +16,11 @@ all_states = states.state.to_list()
 while len(correct_guesses) < 50:
     guess = turtle.textinput(f"{score}/50 States Correct", "Guess a State").title()
     if guess == 'Exit':
-        missing_states = []
-        for state in all_states:
-            if state not in correct_guesses:
-                missing_states.append(state)
+        missing_states = [state for state in all_states if state not in correct_guesses]
         new_states = pandas.DataFrame(missing_states)
         new_states.to_csv("states_to_learn.csv")
         exit()
+
 
     elif guess in states["state"].unique():
         score += 1
