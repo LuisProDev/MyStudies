@@ -1,5 +1,7 @@
 from tkinter import *
 import math
+import pygame
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -10,28 +12,48 @@ WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
+timer = None
+
+# ---------------------------- SOUND SYSTEM ----------------------------#
+pygame.mixer.init()
+def play():
+    pygame.mixer.music.load("alarm.mp3")
+    pygame.mixer.music.play(loops=0)
+    pygame.mixer.music.set_volume(0.01)
 
 
 # ---------------------------- TIMER RESET ------------------------------- # 
+def reset_timer():
+    window.after_cancel(timer)
+    timer_label.config(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 50, "bold"))
+    global reps
+    reps = 0
+    check_label.config(text="")
+    canvas.itemconfig(timer_text, text="00:00")
+
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
-    work_sec = WORK_MIN * 60
-    break_sec = SHORT_BREAK_MIN * 60
+    work_sec = WORK_MIN * 1
+    break_sec = SHORT_BREAK_MIN * 1
     long_sec = LONG_BREAK_MIN * 60
     reps += 1
 
     if reps % 8 == 0:
-        reps = 0
+        play()
         count_down(long_sec)
         timer_label.config(text="Break", fg=RED)
+        window.config(padx=110)
     elif reps % 2 == 0:
+        play()
         count_down(break_sec)
         timer_label.config(text="Break", fg=PINK)
+        window.config(padx=110)
     else:
         count_down(work_sec)
-        timer_label.config(text="Timer", fg=GREEN)
+        timer_label.config(text="Work", fg=GREEN)
+        window.config(padx=113)
 
 
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
@@ -44,10 +66,15 @@ def count_down(count):
 
     canvas.itemconfig(timer_text, text=f'{count_min}:{count_sec}')
     if count > 0:
-        window.after(1000, count_down, count - 1)
+        global timer
+        timer = window.after(1000, count_down, count - 1)
     else:
         start_timer()
-
+        marks = ""
+        work_sessions = math.floor(reps/2)
+        for _ in range(work_sessions):
+            marks += "✓"
+        check_label.config(text=marks)
 # ---------------------------- UI SETUP ------------------------------- #
 
 
@@ -83,10 +110,10 @@ timer_label.grid(row=0, column=1)
 start_button = Button(text="Start", font=("arial", 10, "normal"), command=start_timer)
 start_button.grid(row=2, column=0)
 
-reset_button = Button(text="Reset", font=("arial", 10, "normal"))
+reset_button = Button(text="Reset", font=("arial", 10, "normal"), command=reset_timer)
 reset_button.grid(row=2, column=2)
 
-check_label = Label(text="✓", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 15, "normal"))
+check_label = Label(fg=GREEN, font=(FONT_NAME, 15, "normal"))
 check_label.grid(row=3, column=1)
 
 window.mainloop()
