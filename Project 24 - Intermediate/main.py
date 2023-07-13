@@ -1,6 +1,14 @@
 from tkinter import *
 import math
 import pygame
+import sys
+import os
+
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    base_path = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+    return os.path.join(base_path, relative_path)
 
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -17,7 +25,8 @@ timer = None
 # ---------------------------- SOUND SYSTEM ----------------------------#
 pygame.mixer.init()
 def play():
-    pygame.mixer.music.load("alarm.mp3")
+    file = resource_path("alarm.mp3")
+    pygame.mixer.music.load(file)
     pygame.mixer.music.play(loops=0)
     pygame.mixer.music.set_volume(0.01)
 
@@ -35,8 +44,8 @@ def reset_timer():
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
-    work_sec = WORK_MIN * 1
-    break_sec = SHORT_BREAK_MIN * 1
+    work_sec = WORK_MIN * 60
+    break_sec = SHORT_BREAK_MIN * 60
     long_sec = LONG_BREAK_MIN * 60
     reps += 1
 
@@ -98,7 +107,7 @@ window.geometry(f'{window_width}x{window_height}+{int(x)}+{int(y)}')
 
 # Design the pomodoro logo
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-tomato_img = PhotoImage(file="tomato.png")
+tomato_img = PhotoImage(file=resource_path("tomato.png"))
 canvas.create_image(100, 112, image=tomato_img)
 timer_text = canvas.create_text(100, 125, text="00:00", fill=GREEN, font=(FONT_NAME, 30, "bold"))
 canvas.grid(row=1, column=1)
